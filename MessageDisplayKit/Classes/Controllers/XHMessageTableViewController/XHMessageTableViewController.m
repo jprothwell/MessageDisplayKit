@@ -255,8 +255,8 @@ static CGPoint  delayOffset = {0.0};
 // http://stackoverflow.com/a/11602040 Keep UITableView static when inserting rows at the top
 - (void)insertOldMessages:(NSArray *)oldMessages completion:(void (^)())completion {
     WEAKSELF
+    delayOffset = weakSelf.messageTableView.contentOffset;
     [self exChangeMessageDataSourceQueue:^{
-        delayOffset = weakSelf.messageTableView.contentOffset;
         NSMutableArray *indexPaths = [[NSMutableArray alloc] initWithCapacity:oldMessages.count];
         NSMutableIndexSet *indexSets = [[NSMutableIndexSet alloc] init];
         [oldMessages enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {

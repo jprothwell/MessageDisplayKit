@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MessageDisplayKit/Classes/**/*.{h,m}'
   s.resources    = 'MessageDisplayKit/Resources/*'
   s.requires_arc = true
-  s.dependency 'LKBadgeView', '~> 1.0'
-  s.dependency 'FLAnimatedImage', '~> 1.0'
-  s.dependency 'SECoreTextView', '~> 0.8'
+  s.dependency 'LKbadgeView'
+  s.dependency 'FLAnimatedImage'
+  s.dependency 'SECoreTextView'
 end

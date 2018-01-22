@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Jack" => "xhzengAIB@gmail.com" }
   s.source       = { :git => "https://github.com/jprothwell/MessageDisplayKit.git", :tag => s.version }
   s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit', 'MobileCoreServices', 'AVFoundation', 'CoreLocation', 'MediaPlayer', 'CoreMedia', 'CoreText', 'AudioToolbox'
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '8.0'
   s.source_files = 'MessageDisplayKit/Classes/**/*.{h,m}'
   s.resources    = 'MessageDisplayKit/Resources/*'
   s.requires_arc = true

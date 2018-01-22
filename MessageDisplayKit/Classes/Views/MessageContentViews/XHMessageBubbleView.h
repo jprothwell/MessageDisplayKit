@@ -12,10 +12,10 @@
 #import "XHMessageTextView.h"
 #import "XHMessageInputView.h"
 #import "XHBubblePhotoImageView.h"
-#import "SETextView.h"
+#import <SECoreTextView/SETextView.h>
 
-#import "FLAnimatedImageView.h"
-#import "FLAnimatedImage.h"
+#import <FLAnimatedImage/FLAnimatedImage.h>
+#import <FLAnimatedImage/FLAnimatedImageView.h>
 
 // Macro
 #import "XHMacro.h"

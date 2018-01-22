@@ -14,7 +14,7 @@
 #import "XHMessageBubbleView.h"
 #import "UIView+XHRemoteImage.h"
 
-#import "LKBadgeView.h"
+#import <LKbadgeView/LKBadgeView.h>
 
 @class XHMessageTableViewCell;
 

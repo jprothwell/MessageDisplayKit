@@ -1,0 +1,18 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - LKbadgeView (1.1.0)
+  - SECoreTextView (0.8.5)
+
+DEPENDENCIES:
+  - FLAnimatedImage
+  - LKbadgeView
+  - SECoreTextView
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  LKbadgeView: 35e7ecee61ef8e8282902ee79332b3b0b5efa5a9
+  SECoreTextView: 5f3bedc0c9ffc2f4c109c37142f25c12f37368dd
+
+PODFILE CHECKSUM: 96470ff8b05fd71a43893c40f266a96abddf94d6
+
+COCOAPODS: 1.3.1

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EECE6AC19D024B7EFFC59B5 /* libPods-MessageDisplayKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A94A608F4E658179D06818 /* libPods-MessageDisplayKit.a */; };
 		7053E7151B42EE6C00DE808D /* keyboard_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7053E7131B42EE6C00DE808D /* keyboard_HL@2x.png */; };
 		7053E7161B42EE6C00DE808D /* keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7053E7141B42EE6C00DE808D /* keyboard@2x.png */; };
 		E466FA4E1B42EC0F00EE02A6 /* XHConfigurationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E466FA4C1B42EC0F00EE02A6 /* XHConfigurationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,40 +88,6 @@
 		F751C46C1A4C3EDB00743ECB /* XHMessageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C2D81A4C3EDB00743ECB /* XHMessageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F751C46D1A4C3EDB00743ECB /* XHShareMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C2D91A4C3EDB00743ECB /* XHShareMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F751C46E1A4C3EDB00743ECB /* XHShareMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C2DA1A4C3EDB00743ECB /* XHShareMenuItem.m */; };
-		F751C4711A4C3EDB00743ECB /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C2DF1A4C3EDB00743ECB /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4721A4C3EDB00743ECB /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C2E01A4C3EDB00743ECB /* FLAnimatedImage.m */; };
-		F751C4731A4C3EDB00743ECB /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C2E11A4C3EDB00743ECB /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4741A4C3EDB00743ECB /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C2E21A4C3EDB00743ECB /* FLAnimatedImageView.m */; };
-		F751C48C1A4C3EDB00743ECB /* SECompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C2FF1A4C3EDB00743ECB /* SECompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C48D1A4C3EDB00743ECB /* SECompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3001A4C3EDB00743ECB /* SECompatibility.m */; };
-		F751C48E1A4C3EDB00743ECB /* SEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3011A4C3EDB00743ECB /* SEConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C48F1A4C3EDB00743ECB /* SEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3021A4C3EDB00743ECB /* SEConstants.m */; };
-		F751C4901A4C3EDB00743ECB /* SELineLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3031A4C3EDB00743ECB /* SELineLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4911A4C3EDB00743ECB /* SELineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3041A4C3EDB00743ECB /* SELineLayout.m */; };
-		F751C4921A4C3EDB00743ECB /* SELinkText.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3051A4C3EDB00743ECB /* SELinkText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4931A4C3EDB00743ECB /* SELinkText.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3061A4C3EDB00743ECB /* SELinkText.m */; };
-		F751C4941A4C3EDB00743ECB /* SESelectionGrabber.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3071A4C3EDB00743ECB /* SESelectionGrabber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4951A4C3EDB00743ECB /* SESelectionGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3081A4C3EDB00743ECB /* SESelectionGrabber.m */; };
-		F751C4961A4C3EDB00743ECB /* SETextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3091A4C3EDB00743ECB /* SETextAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4971A4C3EDB00743ECB /* SETextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C30A1A4C3EDB00743ECB /* SETextAttachment.m */; };
-		F751C4981A4C3EDB00743ECB /* SETextEditingCaret.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C30B1A4C3EDB00743ECB /* SETextEditingCaret.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4991A4C3EDB00743ECB /* SETextEditingCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C30C1A4C3EDB00743ECB /* SETextEditingCaret.m */; };
-		F751C49A1A4C3EDB00743ECB /* SETextGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C30D1A4C3EDB00743ECB /* SETextGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C49B1A4C3EDB00743ECB /* SETextGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C30E1A4C3EDB00743ECB /* SETextGeometry.m */; };
-		F751C49C1A4C3EDB00743ECB /* SETextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C30F1A4C3EDB00743ECB /* SETextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C49D1A4C3EDB00743ECB /* SETextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3101A4C3EDB00743ECB /* SETextInput.m */; };
-		F751C49E1A4C3EDB00743ECB /* SETextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3111A4C3EDB00743ECB /* SETextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C49F1A4C3EDB00743ECB /* SETextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3121A4C3EDB00743ECB /* SETextLayout.m */; };
-		F751C4A01A4C3EDB00743ECB /* SETextMagnifierCaret.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3131A4C3EDB00743ECB /* SETextMagnifierCaret.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4A11A4C3EDB00743ECB /* SETextMagnifierCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3141A4C3EDB00743ECB /* SETextMagnifierCaret.m */; };
-		F751C4A21A4C3EDB00743ECB /* SETextMagnifierRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3151A4C3EDB00743ECB /* SETextMagnifierRanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4A31A4C3EDB00743ECB /* SETextMagnifierRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3161A4C3EDB00743ECB /* SETextMagnifierRanged.m */; };
-		F751C4A41A4C3EDB00743ECB /* SETextSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3171A4C3EDB00743ECB /* SETextSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4A51A4C3EDB00743ECB /* SETextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C3181A4C3EDB00743ECB /* SETextSelection.m */; };
-		F751C4A61A4C3EDB00743ECB /* SETextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3191A4C3EDB00743ECB /* SETextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4A71A4C3EDB00743ECB /* SETextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C31A1A4C3EDB00743ECB /* SETextSelectionView.m */; };
-		F751C4A81A4C3EDB00743ECB /* SETextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C31B1A4C3EDB00743ECB /* SETextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751C4A91A4C3EDB00743ECB /* SETextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C31C1A4C3EDB00743ECB /* SETextView.m */; };
 		F751C4C01A4C3EDB00743ECB /* XHBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3391A4C3EDB00743ECB /* XHBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F751C4C11A4C3EDB00743ECB /* XHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F751C33A1A4C3EDB00743ECB /* XHBaseTableViewCell.m */; };
 		F751C4D41A4C3EDB00743ECB /* XHBubblePhotoImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F751C3511A4C3EDB00743ECB /* XHBubblePhotoImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -190,8 +157,6 @@
 		F7B9E9351A4D602C0072F81B /* VoiceBtn_BlackHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B9E8DA1A4D602C0072F81B /* VoiceBtn_BlackHL@2x.png */; };
 		F7B9E9371A4D602C0072F81B /* weChatBubble_Receiving_Solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B9E8DC1A4D602C0072F81B /* weChatBubble_Receiving_Solid@2x.png */; };
 		F7B9E9391A4D602C0072F81B /* weChatBubble_Sending_Solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B9E8DE1A4D602C0072F81B /* weChatBubble_Sending_Solid@2x.png */; };
-		F7D253471A4D32B30015764B /* LKBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D253451A4D32B30015764B /* LKBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7D253481A4D32B30015764B /* LKBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D253461A4D32B30015764B /* LKBadgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,8 +170,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9ACA44597FAB8C1C3AE84B /* Pods-MessageDisplayKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageDisplayKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageDisplayKit/Pods-MessageDisplayKit.debug.xcconfig"; sourceTree = "<group>"; };
 		7053E7131B42EE6C00DE808D /* keyboard_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_HL@2x.png"; sourceTree = "<group>"; };
 		7053E7141B42EE6C00DE808D /* keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard@2x.png"; sourceTree = "<group>"; };
+		D0A94A608F4E658179D06818 /* libPods-MessageDisplayKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MessageDisplayKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4557837AC17E24347C47E5 /* Pods-MessageDisplayKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageDisplayKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessageDisplayKit/Pods-MessageDisplayKit.release.xcconfig"; sourceTree = "<group>"; };
 		E466FA4C1B42EC0F00EE02A6 /* XHConfigurationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHConfigurationHelper.h; sourceTree = "<group>"; };
 		E466FA4D1B42EC0F00EE02A6 /* XHConfigurationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHConfigurationHelper.m; sourceTree = "<group>"; };
 		F751C1E51A4C3E1B00743ECB /* MessageDisplayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageDisplayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -288,40 +256,6 @@
 		F751C2D81A4C3EDB00743ECB /* XHMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMessageModel.h; sourceTree = "<group>"; };
 		F751C2D91A4C3EDB00743ECB /* XHShareMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHShareMenuItem.h; sourceTree = "<group>"; };
 		F751C2DA1A4C3EDB00743ECB /* XHShareMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHShareMenuItem.m; sourceTree = "<group>"; };
-		F751C2DF1A4C3EDB00743ECB /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
-		F751C2E01A4C3EDB00743ECB /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
-		F751C2E11A4C3EDB00743ECB /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
-		F751C2E21A4C3EDB00743ECB /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
-		F751C2FF1A4C3EDB00743ECB /* SECompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECompatibility.h; sourceTree = "<group>"; };
-		F751C3001A4C3EDB00743ECB /* SECompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECompatibility.m; sourceTree = "<group>"; };
-		F751C3011A4C3EDB00743ECB /* SEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEConstants.h; sourceTree = "<group>"; };
-		F751C3021A4C3EDB00743ECB /* SEConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEConstants.m; sourceTree = "<group>"; };
-		F751C3031A4C3EDB00743ECB /* SELineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELineLayout.h; sourceTree = "<group>"; };
-		F751C3041A4C3EDB00743ECB /* SELineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELineLayout.m; sourceTree = "<group>"; };
-		F751C3051A4C3EDB00743ECB /* SELinkText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELinkText.h; sourceTree = "<group>"; };
-		F751C3061A4C3EDB00743ECB /* SELinkText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELinkText.m; sourceTree = "<group>"; };
-		F751C3071A4C3EDB00743ECB /* SESelectionGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESelectionGrabber.h; sourceTree = "<group>"; };
-		F751C3081A4C3EDB00743ECB /* SESelectionGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESelectionGrabber.m; sourceTree = "<group>"; };
-		F751C3091A4C3EDB00743ECB /* SETextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextAttachment.h; sourceTree = "<group>"; };
-		F751C30A1A4C3EDB00743ECB /* SETextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextAttachment.m; sourceTree = "<group>"; };
-		F751C30B1A4C3EDB00743ECB /* SETextEditingCaret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextEditingCaret.h; sourceTree = "<group>"; };
-		F751C30C1A4C3EDB00743ECB /* SETextEditingCaret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextEditingCaret.m; sourceTree = "<group>"; };
-		F751C30D1A4C3EDB00743ECB /* SETextGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextGeometry.h; sourceTree = "<group>"; };
-		F751C30E1A4C3EDB00743ECB /* SETextGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextGeometry.m; sourceTree = "<group>"; };
-		F751C30F1A4C3EDB00743ECB /* SETextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextInput.h; sourceTree = "<group>"; };
-		F751C3101A4C3EDB00743ECB /* SETextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextInput.m; sourceTree = "<group>"; };
-		F751C3111A4C3EDB00743ECB /* SETextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextLayout.h; sourceTree = "<group>"; };
-		F751C3121A4C3EDB00743ECB /* SETextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextLayout.m; sourceTree = "<group>"; };
-		F751C3131A4C3EDB00743ECB /* SETextMagnifierCaret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextMagnifierCaret.h; sourceTree = "<group>"; };
-		F751C3141A4C3EDB00743ECB /* SETextMagnifierCaret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextMagnifierCaret.m; sourceTree = "<group>"; };
-		F751C3151A4C3EDB00743ECB /* SETextMagnifierRanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextMagnifierRanged.h; sourceTree = "<group>"; };
-		F751C3161A4C3EDB00743ECB /* SETextMagnifierRanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextMagnifierRanged.m; sourceTree = "<group>"; };
-		F751C3171A4C3EDB00743ECB /* SETextSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextSelection.h; sourceTree = "<group>"; };
-		F751C3181A4C3EDB00743ECB /* SETextSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextSelection.m; sourceTree = "<group>"; };
-		F751C3191A4C3EDB00743ECB /* SETextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextSelectionView.h; sourceTree = "<group>"; };
-		F751C31A1A4C3EDB00743ECB /* SETextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextSelectionView.m; sourceTree = "<group>"; };
-		F751C31B1A4C3EDB00743ECB /* SETextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETextView.h; sourceTree = "<group>"; };
-		F751C31C1A4C3EDB00743ECB /* SETextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETextView.m; sourceTree = "<group>"; };
 		F751C3391A4C3EDB00743ECB /* XHBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBaseTableViewCell.h; sourceTree = "<group>"; };
 		F751C33A1A4C3EDB00743ECB /* XHBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseTableViewCell.m; sourceTree = "<group>"; };
 		F751C3511A4C3EDB00743ECB /* XHBubblePhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBubblePhotoImageView.h; sourceTree = "<group>"; };
@@ -392,8 +326,6 @@
 		F7B9E8DC1A4D602C0072F81B /* weChatBubble_Receiving_Solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weChatBubble_Receiving_Solid@2x.png"; sourceTree = "<group>"; };
 		F7B9E8DE1A4D602C0072F81B /* weChatBubble_Sending_Solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weChatBubble_Sending_Solid@2x.png"; sourceTree = "<group>"; };
 		F7B9E8DF1A4D602C0072F81B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MessageDisplayKitString.strings"; sourceTree = "<group>"; };
-		F7D253451A4D32B30015764B /* LKBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBadgeView.h; sourceTree = "<group>"; };
-		F7D253461A4D32B30015764B /* LKBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBadgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +335,7 @@
 			files = (
 				F751C7AD1A4C402400743ECB /* Foundation.framework in Frameworks */,
 				F751C7AB1A4C402000743ECB /* UIKit.framework in Frameworks */,
+				3EECE6AC19D024B7EFFC59B5 /* libPods-MessageDisplayKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +350,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53EE1B67E86047DCA40D3233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D9ACA44597FAB8C1C3AE84B /* Pods-MessageDisplayKit.debug.xcconfig */,
+				DC4557837AC17E24347C47E5 /* Pods-MessageDisplayKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F751C1DB1A4C3E1B00743ECB = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +366,7 @@
 				F751C1F41A4C3E1B00743ECB /* MessageDisplayKitTests */,
 				F751C7AE1A4C402F00743ECB /* Frameworks */,
 				F751C1E61A4C3E1B00743ECB /* Products */,
+				53EE1B67E86047DCA40D3233 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -484,7 +427,6 @@
 		F751C2261A4C3EDA00743ECB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F751C2DD1A4C3EDB00743ECB /* Vendor */,
 				F751C2471A4C3EDA00743ECB /* Common */,
 				F751C2271A4C3EDA00743ECB /* Categorys */,
 				F751C2C71A4C3EDB00743ECB /* Macro */,
@@ -710,64 +652,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F751C2DD1A4C3EDB00743ECB /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				F7D253441A4D32B30015764B /* LKBadgeView */,
-				F751C2DE1A4C3EDB00743ECB /* FLAnimatedImageView */,
-				F751C2FC1A4C3EDB00743ECB /* SECoreTextView */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		F751C2DE1A4C3EDB00743ECB /* FLAnimatedImageView */ = {
-			isa = PBXGroup;
-			children = (
-				F751C2DF1A4C3EDB00743ECB /* FLAnimatedImage.h */,
-				F751C2E01A4C3EDB00743ECB /* FLAnimatedImage.m */,
-				F751C2E11A4C3EDB00743ECB /* FLAnimatedImageView.h */,
-				F751C2E21A4C3EDB00743ECB /* FLAnimatedImageView.m */,
-			);
-			path = FLAnimatedImageView;
-			sourceTree = "<group>";
-		};
-		F751C2FC1A4C3EDB00743ECB /* SECoreTextView */ = {
-			isa = PBXGroup;
-			children = (
-				F751C2FF1A4C3EDB00743ECB /* SECompatibility.h */,
-				F751C3001A4C3EDB00743ECB /* SECompatibility.m */,
-				F751C3011A4C3EDB00743ECB /* SEConstants.h */,
-				F751C3021A4C3EDB00743ECB /* SEConstants.m */,
-				F751C3031A4C3EDB00743ECB /* SELineLayout.h */,
-				F751C3041A4C3EDB00743ECB /* SELineLayout.m */,
-				F751C3051A4C3EDB00743ECB /* SELinkText.h */,
-				F751C3061A4C3EDB00743ECB /* SELinkText.m */,
-				F751C3071A4C3EDB00743ECB /* SESelectionGrabber.h */,
-				F751C3081A4C3EDB00743ECB /* SESelectionGrabber.m */,
-				F751C3091A4C3EDB00743ECB /* SETextAttachment.h */,
-				F751C30A1A4C3EDB00743ECB /* SETextAttachment.m */,
-				F751C30B1A4C3EDB00743ECB /* SETextEditingCaret.h */,
-				F751C30C1A4C3EDB00743ECB /* SETextEditingCaret.m */,
-				F751C30D1A4C3EDB00743ECB /* SETextGeometry.h */,
-				F751C30E1A4C3EDB00743ECB /* SETextGeometry.m */,
-				F751C30F1A4C3EDB00743ECB /* SETextInput.h */,
-				F751C3101A4C3EDB00743ECB /* SETextInput.m */,
-				F751C3111A4C3EDB00743ECB /* SETextLayout.h */,
-				F751C3121A4C3EDB00743ECB /* SETextLayout.m */,
-				F751C3131A4C3EDB00743ECB /* SETextMagnifierCaret.h */,
-				F751C3141A4C3EDB00743ECB /* SETextMagnifierCaret.m */,
-				F751C3151A4C3EDB00743ECB /* SETextMagnifierRanged.h */,
-				F751C3161A4C3EDB00743ECB /* SETextMagnifierRanged.m */,
-				F751C3171A4C3EDB00743ECB /* SETextSelection.h */,
-				F751C3181A4C3EDB00743ECB /* SETextSelection.m */,
-				F751C3191A4C3EDB00743ECB /* SETextSelectionView.h */,
-				F751C31A1A4C3EDB00743ECB /* SETextSelectionView.m */,
-				F751C31B1A4C3EDB00743ECB /* SETextView.h */,
-				F751C31C1A4C3EDB00743ECB /* SETextView.m */,
-			);
-			path = SECoreTextView;
-			sourceTree = "<group>";
-		};
 		F751C32B1A4C3EDB00743ECB /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -838,6 +722,7 @@
 			children = (
 				F751C7AC1A4C402400743ECB /* Foundation.framework */,
 				F751C7AA1A4C402000743ECB /* UIKit.framework */,
+				D0A94A608F4E658179D06818 /* libPods-MessageDisplayKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -891,15 +776,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		F7D253441A4D32B30015764B /* LKBadgeView */ = {
-			isa = PBXGroup;
-			children = (
-				F7D253451A4D32B30015764B /* LKBadgeView.h */,
-				F7D253461A4D32B30015764B /* LKBadgeView.m */,
-			);
-			path = LKBadgeView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -911,7 +787,6 @@
 				F751C44D1A4C3EDB00743ECB /* XHFileAttribute.h in Headers */,
 				F751C4311A4C3EDB00743ECB /* XHDisplayMediaViewController.h in Headers */,
 				F751C4E41A4C3EDB00743ECB /* XHEmotionCollectionViewFlowLayout.h in Headers */,
-				F751C4961A4C3EDB00743ECB /* SETextAttachment.h in Headers */,
 				F751C4621A4C3EDB00743ECB /* XHAnnotation.h in Headers */,
 				F751C3E51A4C3EDB00743ECB /* NSString+MessageInputView.h in Headers */,
 				F751C46A1A4C3EDB00743ECB /* XHMessage.h in Headers */,
@@ -919,31 +794,21 @@
 				F751C4E81A4C3EDB00743ECB /* XHEmotionSectionBar.h in Headers */,
 				F751C40D1A4C3EDB00743ECB /* XHVoiceRecordHelper.h in Headers */,
 				F751C46C1A4C3EDB00743ECB /* XHMessageModel.h in Headers */,
-				F751C4A61A4C3EDB00743ECB /* SETextSelectionView.h in Headers */,
-				F751C4A21A4C3EDB00743ECB /* SETextMagnifierRanged.h in Headers */,
 				F751C4071A4C3EDB00743ECB /* XHMessageBubbleHelper.h in Headers */,
-				F751C4A81A4C3EDB00743ECB /* SETextView.h in Headers */,
 				F751C4D61A4C3EDB00743ECB /* XHMessageBubbleView.h in Headers */,
 				F751C3F11A4C3EDB00743ECB /* UIImage+RoundedCorner.h in Headers */,
 				F751C4EA1A4C3EDB00743ECB /* XHShareMenuView.h in Headers */,
 				F751C42F1A4C3EDB00743ECB /* XHDisplayLocationViewController.h in Headers */,
-				F751C4731A4C3EDB00743ECB /* FLAnimatedImageView.h in Headers */,
-				F751C49C1A4C3EDB00743ECB /* SETextInput.h in Headers */,
-				F751C4711A4C3EDB00743ECB /* FLAnimatedImage.h in Headers */,
-				F751C4A41A4C3EDB00743ECB /* SETextSelection.h in Headers */,
 				F751C4661A4C3EDB00743ECB /* XHEmotion.h in Headers */,
 				F751C40B1A4C3EDB00743ECB /* XHVoiceCommonHelper.h in Headers */,
 				F751C4D81A4C3EDB00743ECB /* XHMessageTableView.h in Headers */,
 				F751C3F31A4C3EDB00743ECB /* UIImage+Utility.h in Headers */,
 				F751C4D41A4C3EDB00743ECB /* XHBubblePhotoImageView.h in Headers */,
 				F751C3E91A4C3EDB00743ECB /* NSString+XHMD5.h in Headers */,
-				F751C4941A4C3EDB00743ECB /* SESelectionGrabber.h in Headers */,
 				F751C3FD1A4C3EDB00743ECB /* UIView+XHRemoteImage.h in Headers */,
 				F751C45D1A4C3EDB00743ECB /* XHFoundationMacro.h in Headers */,
 				F751C7B01A4C407800743ECB /* MessageDisplayKit-Prefix.pch in Headers */,
-				F751C48C1A4C3EDB00743ECB /* SECompatibility.h in Headers */,
 				F751C42D1A4C3EDB00743ECB /* XHDisplayEmotionViewController.h in Headers */,
-				F751C49A1A4C3EDB00743ECB /* SETextGeometry.h in Headers */,
 				F751C4051A4C3EDB00743ECB /* XHLocationHelper.h in Headers */,
 				F751C44B1A4C3EDB00743ECB /* XHCacheManager.h in Headers */,
 				F751C4531A4C3EDB00743ECB /* XHMessageAvatarFactory.h in Headers */,
@@ -952,7 +817,6 @@
 				F751C4E61A4C3EDB00743ECB /* XHEmotionManagerView.h in Headers */,
 				F751C4E21A4C3EDB00743ECB /* XHEmotionCollectionViewCell.h in Headers */,
 				F751C4551A4C3EDB00743ECB /* XHMessageBubbleFactory.h in Headers */,
-				F751C49E1A4C3EDB00743ECB /* SETextLayout.h in Headers */,
 				F751C4591A4C3EDB00743ECB /* XHMessageVoiceFactory.h in Headers */,
 				F751C4331A4C3EDB00743ECB /* XHDisplayTextViewController.h in Headers */,
 				F751C3EF1A4C3EDB00743ECB /* UIImage+Resize.h in Headers */,
@@ -961,9 +825,7 @@
 				F751C44F1A4C3EDB00743ECB /* XHHTTPClient.h in Headers */,
 				F751C4DE1A4C3EDB00743ECB /* XHMessageTextView.h in Headers */,
 				F751C46D1A4C3EDB00743ECB /* XHShareMenuItem.h in Headers */,
-				F751C48E1A4C3EDB00743ECB /* SEConstants.h in Headers */,
 				F751C4681A4C3EDB00743ECB /* XHEmotionManager.h in Headers */,
-				F751C4A01A4C3EDB00743ECB /* SETextMagnifierCaret.h in Headers */,
 				F751C4DA1A4C3EDB00743ECB /* XHMessageTableViewCell.h in Headers */,
 				F751C45B1A4C3EDB00743ECB /* XHVideoOutputSampleBufferFactory.h in Headers */,
 				F751C3ED1A4C3EDB00743ECB /* UIImage+Alpha.h in Headers */,
@@ -971,14 +833,10 @@
 				F751C4DC1A4C3EDB00743ECB /* XHMessageInputView.h in Headers */,
 				F751C4511A4C3EDB00743ECB /* XHOperationNetworkKit.h in Headers */,
 				F751C4571A4C3EDB00743ECB /* XHMessageVideoConverPhotoFactory.h in Headers */,
-				F751C4981A4C3EDB00743ECB /* SETextEditingCaret.h in Headers */,
 				F751C3FF1A4C3EDB00743ECB /* XHAudioPlayerHelper.h in Headers */,
-				F751C4901A4C3EDB00743ECB /* SELineLayout.h in Headers */,
 				F751C45F1A4C3EDB00743ECB /* XHUIKitMacro.h in Headers */,
 				F751C4E01A4C3EDB00743ECB /* XHVoiceRecordHUD.h in Headers */,
 				E466FA4E1B42EC0F00EE02A6 /* XHConfigurationHelper.h in Headers */,
-				F7D253471A4D32B30015764B /* LKBadgeView.h in Headers */,
-				F751C4921A4C3EDB00743ECB /* SELinkText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,10 +847,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F751C1FB1A4C3E1B00743ECB /* Build configuration list for PBXNativeTarget "MessageDisplayKit" */;
 			buildPhases = (
+				155516EA9F4AAF70B925A83A /* [CP] Check Pods Manifest.lock */,
 				F751C1E01A4C3E1B00743ECB /* Sources */,
 				F751C1E11A4C3E1B00743ECB /* Frameworks */,
 				F751C1E21A4C3E1B00743ECB /* Headers */,
 				F751C1E31A4C3E1B00743ECB /* Resources */,
+				0B0E9E7ECB1F1FDD0C235ED8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1116,22 +976,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B0E9E7ECB1F1FDD0C235ED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MessageDisplayKit/Pods-MessageDisplayKit-resources.sh",
+				"${PODS_ROOT}/SECoreTextView/Resources/SECoreTextView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessageDisplayKit/Pods-MessageDisplayKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		155516EA9F4AAF70B925A83A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessageDisplayKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F751C1E01A4C3E1B00743ECB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F751C49F1A4C3EDB00743ECB /* SETextLayout.m in Sources */,
 				F751C3FE1A4C3EDB00743ECB /* UIView+XHRemoteImage.m in Sources */,
-				F751C4A51A4C3EDB00743ECB /* SETextSelection.m in Sources */,
-				F751C4721A4C3EDB00743ECB /* FLAnimatedImage.m in Sources */,
 				F751C4631A4C3EDB00743ECB /* XHAnnotation.m in Sources */,
 				F751C4321A4C3EDB00743ECB /* XHDisplayMediaViewController.m in Sources */,
 				F751C4C11A4C3EDB00743ECB /* XHBaseTableViewCell.m in Sources */,
-				F751C4741A4C3EDB00743ECB /* FLAnimatedImageView.m in Sources */,
 				F751C4E91A4C3EDB00743ECB /* XHEmotionSectionBar.m in Sources */,
-				F751C48D1A4C3EDB00743ECB /* SECompatibility.m in Sources */,
-				F751C4991A4C3EDB00743ECB /* SETextEditingCaret.m in Sources */,
 				F751C3E61A4C3EDB00743ECB /* NSString+MessageInputView.m in Sources */,
 				F751C40C1A4C3EDB00743ECB /* XHVoiceCommonHelper.m in Sources */,
 				F751C4561A4C3EDB00743ECB /* XHMessageBubbleFactory.m in Sources */,
@@ -1142,7 +1035,6 @@
 				F751C4541A4C3EDB00743ECB /* XHMessageAvatarFactory.m in Sources */,
 				F751C45A1A4C3EDB00743ECB /* XHMessageVoiceFactory.m in Sources */,
 				F751C4DF1A4C3EDB00743ECB /* XHMessageTextView.m in Sources */,
-				F751C4971A4C3EDB00743ECB /* SETextAttachment.m in Sources */,
 				F751C4E31A4C3EDB00743ECB /* XHEmotionCollectionViewCell.m in Sources */,
 				F751C44C1A4C3EDB00743ECB /* XHCacheManager.m in Sources */,
 				F751C4501A4C3EDB00743ECB /* XHHTTPClient.m in Sources */,
@@ -1151,10 +1043,8 @@
 				F751C3EE1A4C3EDB00743ECB /* UIImage+Alpha.m in Sources */,
 				F751C4081A4C3EDB00743ECB /* XHMessageBubbleHelper.m in Sources */,
 				F751C4D51A4C3EDB00743ECB /* XHBubblePhotoImageView.m in Sources */,
-				F751C4A11A4C3EDB00743ECB /* SETextMagnifierCaret.m in Sources */,
 				F751C40A1A4C3EDB00743ECB /* XHPhotographyHelper.m in Sources */,
 				F751C4DB1A4C3EDB00743ECB /* XHMessageTableViewCell.m in Sources */,
-				F751C4931A4C3EDB00743ECB /* SELinkText.m in Sources */,
 				F751C4361A4C3EDB00743ECB /* XHMessageTableViewController.m in Sources */,
 				F751C4691A4C3EDB00743ECB /* XHEmotionManager.m in Sources */,
 				F751C4671A4C3EDB00743ECB /* XHEmotion.m in Sources */,
@@ -1170,24 +1060,15 @@
 				F751C4581A4C3EDB00743ECB /* XHMessageVideoConverPhotoFactory.m in Sources */,
 				F751C4E11A4C3EDB00743ECB /* XHVoiceRecordHUD.m in Sources */,
 				F751C4021A4C3EDB00743ECB /* XHCaptureHelper.m in Sources */,
-				F751C4951A4C3EDB00743ECB /* SESelectionGrabber.m in Sources */,
-				F7D253481A4D32B30015764B /* LKBadgeView.m in Sources */,
 				F751C4001A4C3EDB00743ECB /* XHAudioPlayerHelper.m in Sources */,
 				F751C3F01A4C3EDB00743ECB /* UIImage+Resize.m in Sources */,
 				F751C46E1A4C3EDB00743ECB /* XHShareMenuItem.m in Sources */,
 				F751C4521A4C3EDB00743ECB /* XHOperationNetworkKit.m in Sources */,
-				F751C4A91A4C3EDB00743ECB /* SETextView.m in Sources */,
-				F751C4A71A4C3EDB00743ECB /* SETextSelectionView.m in Sources */,
-				F751C4A31A4C3EDB00743ECB /* SETextMagnifierRanged.m in Sources */,
 				F751C4EB1A4C3EDB00743ECB /* XHShareMenuView.m in Sources */,
-				F751C49B1A4C3EDB00743ECB /* SETextGeometry.m in Sources */,
 				F751C45C1A4C3EDB00743ECB /* XHVideoOutputSampleBufferFactory.m in Sources */,
-				F751C49D1A4C3EDB00743ECB /* SETextInput.m in Sources */,
 				F751C4341A4C3EDB00743ECB /* XHDisplayTextViewController.m in Sources */,
 				F751C3F81A4C3EDB00743ECB /* UIImage+XHRounded.m in Sources */,
 				E466FA4F1B42EC0F00EE02A6 /* XHConfigurationHelper.m in Sources */,
-				F751C48F1A4C3EDB00743ECB /* SEConstants.m in Sources */,
-				F751C4911A4C3EDB00743ECB /* SELineLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1257,7 +1138,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1296,7 +1177,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1308,6 +1189,7 @@
 		};
 		F751C1FC1A4C3E1B00743ECB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9ACA44597FAB8C1C3AE84B /* Pods-MessageDisplayKit.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1316,7 +1198,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MessageDisplayKit/MessageDisplayKit-Prefix.pch";
 				INFOPLIST_FILE = MessageDisplayKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1325,6 +1207,7 @@
 		};
 		F751C1FD1A4C3E1B00743ECB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4557837AC17E24347C47E5 /* Pods-MessageDisplayKit.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1333,7 +1216,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MessageDisplayKit/MessageDisplayKit-Prefix.pch";
 				INFOPLIST_FILE = MessageDisplayKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

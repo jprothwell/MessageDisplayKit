@@ -9,6 +9,7 @@
 #ifndef MessageDisplayExample_XHFoundationMacro_h
 #define MessageDisplayExample_XHFoundationMacro_h
 
+#import <DLog/DLog.h>
 
 // block self
 #define WEAKSELF typeof(self) __weak weakSelf = self;

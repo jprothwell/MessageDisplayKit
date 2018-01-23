@@ -10,5 +10,6 @@ target 'MessageDisplayKit' do
   pod 'LKbadgeView'
   pod 'FLAnimatedImage'
   pod 'SECoreTextView'
+  pod 'DLog'
 
 end

@@ -255,7 +255,12 @@ static CGPoint  delayOffset = {0.0};
 // http://stackoverflow.com/a/11602040 Keep UITableView static when inserting rows at the top
 - (void)insertOldMessages:(NSArray *)oldMessages completion:(void (^)())completion {
     WEAKSELF
-    delayOffset = weakSelf.messageTableView.contentOffset;
+    delayOffset = self.messageTableView.contentOffset;
+    NSInteger visibleCount = 0;
+    if([self.messageTableView indexPathsForVisibleRows].count>0){
+        NSIndexPath* firstIndexPath = [self.messageTableView indexPathsForVisibleRows][0];
+        visibleCount = firstIndexPath.row+1;
+    }
     [self exChangeMessageDataSourceQueue:^{
         NSMutableArray *indexPaths = [[NSMutableArray alloc] initWithCapacity:oldMessages.count];
         NSMutableIndexSet *indexSets = [[NSMutableIndexSet alloc] init];
@@ -270,6 +275,12 @@ static CGPoint  delayOffset = {0.0};
         NSMutableArray *messages = [[NSMutableArray alloc] initWithArray:weakSelf.messages];
         [messages insertObjects:oldMessages atIndexes:indexSets];
         
+        //计算滚动位置
+        NSIndexPath* scrollIndexPath = nil;
+        NSInteger total = messages.count+visibleCount;
+        if (total>0){
+            scrollIndexPath = [NSIndexPath indexPathForRow:total-1 inSection:0];
+        }
         
         [weakSelf exMainQueue:^{
             [UIView setAnimationsEnabled:NO];
@@ -284,7 +295,11 @@ static CGPoint  delayOffset = {0.0};
             
             [UIView setAnimationsEnabled:YES];
             
-            [weakSelf.messageTableView setContentOffset:delayOffset animated:NO];
+            //[weakSelf.messageTableView setContentOffset:delayOffset animated:NO];
+            if (scrollIndexPath){
+                [weakSelf.messageTableView scrollToRowAtIndexPath:scrollIndexPath atScrollPosition:UITableViewScrollPositionTop animated:NO];
+            }
+            
             weakSelf.messageTableView.userInteractionEnabled = YES;
             if (completion) {
                 completion();

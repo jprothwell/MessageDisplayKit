@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MessageDisplayKitEx"
-  s.version      = "6.5"
+  s.version      = "6.6"
   s.summary      = "An IM App like WeChat App has to send text, pictures, audio, video, location messaging, managing address book, more interesting features. "
   s.homepage     = "https://github.com/xhzengAIB/MessageDisplayKit"
   s.license      = "MIT"

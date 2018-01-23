@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.dependency 'LKbadgeView'
   s.dependency 'FLAnimatedImage'
   s.dependency 'SECoreTextView'
+  s.dependency 'DLog'
 end
